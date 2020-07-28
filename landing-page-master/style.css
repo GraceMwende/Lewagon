@@ -1,0 +1,59 @@
+/* Write some CSS below */
+body{
+	font-family: Montserrat;
+	margin:0px;
+	}
+
+h1{
+font-family: Red+Rose;
+	}
+
+
+a{
+	background-color: blue;
+	color:white;
+	padding:16px 48px;
+	text-decoration: none;
+	display:inline-block;
+	border-radius: 4px;
+	transition:.3s
+}
+a:hover{
+	color:green;
+}
+/*custom class design */
+#banner{
+	background-image: url("images/background.jpg");
+	background-size: cover;
+	color: white;
+	text-align: center;
+	background-position:center; 
+	padding: 150px;
+}
+#banner h1{
+	font-size: 40px;
+}
+#banner p{
+	font-size:20px;
+	opacity: 0.7;
+	margin-bottom: 40px;
+}
+.class-white{
+	background-color: white;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+	padding: 20px;
+	border-radius: 2px;
+	margin: 20px;
+}
+.cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+#footer{
+	background-color:black;
+	padding: 40px;
+	border-radius:4px;
+	text-align: center;
+	color: blue;
+}
